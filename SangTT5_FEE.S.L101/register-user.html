@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Register User</title>
+    <link href="register-user.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="label-register">
+            <p>USER DETAIL</p>
+        </div>
+        <p id="error"></p>
+        <div class="div-register">
+            <form action="#" method="post" name="frm-register">
+                <table id="tbl-register">
+                    <tr>
+                        <td>First Name <span>*</span></td>
+                        <td>
+                            <input type="text" name="firstName" id="firstName" placeholder="Enter first name" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name <span>*</span></td>
+                        <td>
+                            <input type="text" name="lastName" class="lastName" id="lastName" placeholder="Enter last name" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email <span>*</span></td>
+                        <td>
+                            <input type="email" name="email" class="email" id="email" placeholder="Enter email" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>User Name <span>*</span></td>
+                        <td>
+                            <input type="text" name="userName" class="userName" id="userName" placeholder="Enter user name" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password <span>*</span></td>
+                        <td>
+                            <input type="password" name="password" class="password" id="password" placeholder="Enter password" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password <span>*</span></td>
+                        <td>
+                            <input type="password" name="confirmPassword" class="confirmPassword" id="confirmPassword" placeholder="Enter confirm password" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="button" onclick="validateRegister()" name="register"> Register </button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <hr>
+        <p class="label-result">User List</p>
+        <div class="div-result">
+            <table id="tbl-result" border="1">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Username</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Tran</td>
+                        <td>Sy Cao</td>
+                        <td>caots7999@gmail.com</td>
+                        <td>caots</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Truong</td>
+                        <td>Thi Sang</td>
+                        <td>sang.sama.1999@gmail.com</td>
+                        <td>sangsama</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Tran</td>
+                        <td>Thu Dong</td>
+                        <td>trandong123@gmail.com</td>
+                        <td>dongtt3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- <script src="register-user.js"></script> -->
+</body>
+
+</html>
+

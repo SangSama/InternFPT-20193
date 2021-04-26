@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register User</title>
+    <link href="formContent.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
+    <link rel="stylesheet" href="library/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <h3 style="padding:10px">CMS</h3>
+        <div class="user">
+            <i class="fas fa-user"></i>
+            <i class="fas fa-sort-down"></i>
+        </div>
+    </div>
+    <div class="account">
+        <div class="profile">
+            <a href="edit.html" class="">
+                <i class="fas fa-user"></i>
+                User Profile
+            </a>
+        </div>
+        <div class="logOut">
+            <a href="#" class="">
+                <i class="fas fa-sign-out-alt"></i>
+                Logout
+            </a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="leftContent">
+            <div class="formSearch">
+                <input type="text" placeholder="Search.." class="search">
+                <button type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="view">
+                <i class="fas fa-bars"></i>
+                <a href="#">View Content</a>
+            </div>
+            <div class="formContent">
+                <i class="fas fa-edit"></i>
+                <a href="#">Form Content</a>
+            </div>
+        </div>
+        <div class="rightContent">
+            <h1 style="margin-bottom:20px;">Edit Profile</h1>
+            <hr>
+            <form id="form" action="#" method="POST">
+                <div class="header">Profile Form Elements</div>
+                <div class="body">
+                    <div class="title mart-5">
+                        <laber>First Name
+                            <br>
+                            <input class="inputTitle" type="text" placeholder="Enter The First Name" name="firstName">
+                        </laber>
+                    </div>
+                    <div class="title mart-5">
+                        <laber>Last Name
+                            <br>
+                            <input class="inputTitle" type="text" placeholder="Enter The Last Name" name="lastName">
+                        </laber>
+                    </div>
+                    <div class="" style="margin-top:10px;margin-bottom:10px;">
+                        <p>Email</p>
+                        <p>lequyetanh@gmail.com</p>
+                    </div>
+                    <div class="title mart-5">
+                        <laber>Phone
+                            <br>
+                            <input class="inputTitle" type="number" placeholder="Enter Your Phone Number" name="phone">
+                        </laber>
+                    </div>
+                    <div class="mart-5">
+                        <laber>Description
+                            <br>
+                            <textarea class="textarea" rows="2" placeholder="" name="description"
+                                spellcheck="false"></textarea>
+                        </laber>
+                    </div>
+                    <div class="mart-5">
+                        <button class="" type="submit">Submit Button</button>
+                        <button class="" type="button">Reset Button</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="library/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <script src="library/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>

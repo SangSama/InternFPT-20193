@@ -1,0 +1,52 @@
+#form {
+    width: 50%;
+}
+
+#weather-app {
+    margin-left: 35%;
+    margin-top: 20px;
+
+
+}
+
+#loading-weather{
+    display: none;
+}
+
+hr {
+    float: left;
+    width: 50%;
+    background: aqua;
+}
+
+.weather-detail-container .toggle-units {
+    display: flex;
+}
+
+.weather-detail-container .toggle-units img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.weather-detail-container .toggle-units .text-lg {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.weather-detail-container .toggle-units .text-lg span>span {
+    font-weight: 400;
+}
+
+.weather-detail-container {
+    display: flex;
+    clear: both;
+}
+
+.weather-detail-container .item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 50px
+}

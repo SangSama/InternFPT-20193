@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Segoe UI;
+    font-size: 13px;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #e0dcdc;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b8b3b3;
+}
+
+.user {
+    padding: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.user:hover {
+    background: #aaaaaa;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.leftContent {
+    float: left;
+    width: 20%;
+    border: 1px solid #b8b3b3;
+    height: 712px;
+    background-color: #e0dcdc;
+}
+
+.formSearch {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #b8b3b3;
+}
+
+.search {
+    padding: 6px;
+    font-size: 17px;
+    border-top: 1px solid #c2bdbd;
+    border-left: 1px solid #c2bdbd;
+    border-bottom: 1px solid #c2bdbd;
+    border-right: none;
+}
+
+.formSearch button {
+    /* float: right; */
+    padding: 6px 10px;
+    /* margin-right: 10px; */
+    background: #ffffff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #b8b3b3;
+}
+
+.view, .formContent {
+    padding: 10px;
+    border-bottom: 1px solid #b8b3b3;
+    color: blue;
+}
+
+.fa-bars, .fa-edit {
+    margin-right: 5px;
+}
+
+.rightContent {
+    width: 80%;
+    color: black;
+    padding: 20px;
+}
+
+.form {
+    border: 1px solid #b8b3b3;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.form .header {
+    border: none;
+    padding-left: 20px;
+    height: 50px;
+}
+
+.body {
+    padding: 20px;
+    width: 100%;
+}
+
+.title {
+    width: 100% !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputTitle {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #b8b3b3;
+    outline: none;
+}
+
+.textarea[rows] {
+    height: 100px;
+}
+
+.textarea {
+    display: block;
+    max-width: 80%;
+    padding: 0.625em;
+}
+
+.textarea {
+    max-width: 90%;
+    width: 90%;
+}
+
+.textarea {
+    background-color: white;
+    border-color: #dbdbdb;
+    border-radius: 4px;
+    color: #363636;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    background:#6b9814;
+    cursor:pointer;
+    color: #ffffff;
+}
+
+.mart-5 {
+    margin-top: 5px;
+}
+
+.account {
+    position: fixed;
+    top: 41px;
+    right: 20px;
+    border: 1px solid #9e9e9e;
+    width: 130px;
+    display: none;
+}
+
+.profile, .logOut {
+    padding: 5px 5px 5px 20px;
+    text-align: start;
+}
+
+.profile {
+    border-bottom: 1px solid #c2bdbd;
+}
+
+.fas {
+    margin-right: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #bdb9b9;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.rightContent a{
+    margin:10px;
+    padding:5px;
+    border:1px solid #9e9e9e;
+}
+
+.error{
+    color:red;
+    padding-left: 20px;
+}

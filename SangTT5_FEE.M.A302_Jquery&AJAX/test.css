@@ -1,0 +1,30 @@
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: #8080802e;
+    margin: 0 20%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.box .title{
+    font-size :24px ;
+    margin-bottom: 20px;
+}
+
+.share-btn i{
+    font-size: 36px;
+    color: #004085;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.btn-random {
+    display: flex;
+    justify-content: flex-end;
+}
